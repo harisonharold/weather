@@ -2,3 +2,16 @@
     box-sizing: border-box;
 }
 
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    background: #f6f6f6;
+    text-align: center;
+}
+
+.high-low {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
