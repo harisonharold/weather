@@ -4,17 +4,20 @@
 
 body {
     display: flex;
-    justify-content: center;
+    height: 100vh;
     align-items: center;
+    justify-content: center;
     margin: 0;
 }
 
 .weather-info {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     background: #f6f6f6;
-    text-align: center;
+    height: auto;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
 }
 
 .high-low {
